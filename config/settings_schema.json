@@ -3,9 +3,15 @@
     "name": "theme_info",
     "theme_name": "Prada",
     "theme_version": "0.1",
+<<<<<<< HEAD
     "theme_author": "Tuxxagency",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
+=======
+    "theme_author": "Shopify",
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
+>>>>>>> 7b6449508aa1e24baed92ae17bfb20af731c3a08
   },
   {
     "name": "t:settings_schema.logo.name",
@@ -44,7 +50,7 @@
       {
         "type": "richtext",
         "id": "brand_description",
-        "default": "<p></p>",
+        "default": "<p><\/p>",
         "label": "t:settings_schema.brand_information.settings.brand_description.label"
       },
       {
