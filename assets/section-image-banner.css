@@ -345,7 +345,7 @@
     display: none;
   }
 }
-
+ 
 .banner::after,
 .banner__media::after {
   content: '';
