@@ -319,10 +319,8 @@
     pointer-events: auto;
     }
     .cta__hover,
-    .imageBoxInfoBtn:hover .cta__hover,
     .imageBoxInfoBtn:before,
-    .videoBoxInfoBtn:before,
-    .videoBoxInfoBtn:hover .cta__hover    
+    .videoBoxInfoBtn:before, 
      {
         bottom: 0;
         content: "";
@@ -333,6 +331,10 @@
         transform: translateY(100%) translateY(-1px);
         transition: background .3s cubic-bezier(.42,0,0,1),transform .3s cubic-bezier(.42,0,0,1);
     }    
+    .imageBoxInfoBtn:hover .cta__hover,
+    .videoBoxInfoBtn:hover .cta__hover   {
+        transform: translateY(0);
+    }
     .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
     
     color: #FFF;
