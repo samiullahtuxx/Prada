@@ -74,11 +74,6 @@
      
     
     {% if block.settings.button_link != blank and block.settings.button_label != blank %}
-    
-    {% comment %} <a href="{{ block.settings.button_link }}" class="videoBoxInfoBtn" style="color: {{ block.settings.color_btn_text }};">
-        <span class="cta__hover" style="background: {{ block.settings.color_btn_bg }}"></span>
-        <span class="cta__text js-cta-text">{{ block.settings.button_label | escape }}</span>         
-    </a> {% endcomment %}
 
     <div class="card__ctas">
         <a href="{{ block.settings.button_link }}" class="card__cta js-cta cta--hoverDark" style="color: {{ block.settings.color_btn_text }};">
@@ -143,7 +138,7 @@
     
     {% if block.settings.button_link != blank and block.settings.button_label != blank %}
     
-    <a href="{{ block.settings.button_link }}" class="imageBoxInfoBtn" style="color: {{ block.settings.color_btn_text }};">
+    <a href="{{ block.settings.button_link }}" class="imageBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
         <span class="cta__hover" style="background: {{ block.settings.color_btn_bg }}"></span>
         <span class="cta__text js-cta-text">{{ block.settings.button_label | escape }}</span>    
     </a>
