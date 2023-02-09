@@ -1,5 +1,30 @@
 {
   "sections": {
+    "422aa19e-9da7-4a8d-bfc1-f84753690453": {
+      "type": "video-background",
+      "blocks": {
+        "template--17676727255325__422aa19e-9da7-4a8d-bfc1-f84753690453-167596678093b7638d-0": {
+          "type": "video",
+          "settings": {
+            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e01962cc13d1442f8a8ebd19822e610d.mp4",
+            "video_image": "shopify:\/\/shop_images\/silhouetted-couples-look-out-at-a-city-at-night.jpg",
+            "overlay_opacity": 0,
+            "title": "Hero Video",
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "color_text": "#ffffff",
+            "button_label": "",
+            "button_link": "",
+            "color_btn_bg": "#ffffff",
+            "color_btn_text": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--17676727255325__422aa19e-9da7-4a8d-bfc1-f84753690453-167596678093b7638d-0"
+      ],
+      "settings": {
+      }
+    },
     "798cdda1-2b7b-4855-a0bf-4c039814fce7": {
       "type": "video",
       "settings": {
@@ -223,6 +248,7 @@
     }
   },
   "order": [
+    "422aa19e-9da7-4a8d-bfc1-f84753690453",
     "798cdda1-2b7b-4855-a0bf-4c039814fce7",
     "image_banner",
     "rich_text",
