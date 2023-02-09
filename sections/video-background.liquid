@@ -116,6 +116,9 @@
     
     }
     
+    .imageBoxInfoBtn:before {
+        background: {{ block.settings.color_btn_bg }};
+    }     
     {%- endstyle -%}
     
      
@@ -320,7 +323,17 @@
     margin-top: 0.625rem;
     pointer-events: auto;
     }
-    
+    .imageBoxInfoBtn:before {
+        background: #fff;
+        bottom: 0;
+        content: "";
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translateY(100%) translateY(-1px);
+        transition: background .3s cubic-bezier(.42,0,0,1),transform .3s cubic-bezier(.42,0,0,1);
+    }    
     .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
     
     color: #FFF;
