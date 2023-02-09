@@ -326,9 +326,8 @@
         pointer-events: auto;
         display: none;
     }
-    .card__cta:not(.cta--disabled):hover .card__ctaHover, 
-    .card__cta:not(.cta--disabled):hover .cta__hover, 
-    .card__cta:not(.cta--disabled):hover:before {
+    .card__cta:hover .cta__hover, 
+    .card__cta:hover:before {
         transform: translateY(0);
     }  
     .card__cta .cta__hover, .card__cta:before {
@@ -342,7 +341,7 @@
         transform: translateY(100%) translateY(-1px);
         transition: background .3s cubic-bezier(.42,0,0,1),transform .3s cubic-bezier(.42,0,0,1);
     }
-    .card__cta:not(.cta--disabled).cta--hoverDark:hover .cta__text, .card__cta:not(.cta--disabled):hover .cta__text {
+    .card__cta:hover .cta__text {
         letter-spacing: 1px;
         text-transform: uppercase;
         font-family: benton-sans,sans-serif;
@@ -351,7 +350,16 @@
         position: relative;
         text-align: center;
         width: 100%;        
-    }          
+    }     
+    .card__txt {
+        bottom: 0;
+        padding: 1.25rem 0.625rem;
+        position: absolute;
+        left: 0;
+        text-align: left;
+        width: 100%;
+        z-index: 2;
+    }         
     
     
     .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
