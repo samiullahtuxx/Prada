@@ -60,6 +60,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/barista-pours-over-coffee-at-cafe.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "top-left",
