@@ -14,7 +14,7 @@
             "color_text": "#ffffff",
             "button_label": "SHOP",
             "button_link": "shopify:\/\/collections",
-            "color_btn_bg": "rgba(0,0,0,0)",
+            "color_btn_bg": "#ffffff",
             "color_btn_text": "#121212"
           }
         }
