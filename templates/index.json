@@ -6,16 +6,16 @@
         "template--17676727255325__422aa19e-9da7-4a8d-bfc1-f84753690453-167596678093b7638d-0": {
           "type": "video",
           "settings": {
-            "video_link": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e01962cc13d1442f8a8ebd19822e610d.mp4",
+            "video_link": "https:\/\/www.prada.com\/content\/dam\/pradanux\/home_page\/2023\/02\/update_loving-gifts\/hero\/loop.mp4\/_jcr_content\/renditions\/cq5dam.video.pradanux-large.1920.1080.mp4",
             "video_image": "shopify:\/\/shop_images\/silhouetted-couples-look-out-at-a-city-at-night.jpg",
             "overlay_opacity": 0,
-            "title": "Hero Video",
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+            "title": "SS 2023 Men's Collection",
+            "text": "",
             "color_text": "#ffffff",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "SHOP",
+            "button_link": "shopify:\/\/collections",
             "color_btn_bg": "#ffffff",
-            "color_btn_text": "#ffffff"
+            "color_btn_text": "#121212"
           }
         }
       },
