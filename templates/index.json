@@ -74,6 +74,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -158,6 +159,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -185,6 +187,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -217,6 +220,7 @@
     },
     "9eeeeb02-258f-4347-ac1a-56037b60d29a": {
       "type": "multirow",
+      "disabled": true,
       "blocks": {
         "template--17676727255325__9eeeeb02-258f-4347-ac1a-56037b60d29a-167597080450dc61c8-0": {
           "type": "row",
@@ -261,6 +265,7 @@
     },
     "abe8ce27-7bf8-485b-9eb8-a74f6da61df8": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--17676727255325__abe8ce27-7bf8-485b-9eb8-a74f6da61df8-16759708277be3aa8e-0": {
           "type": "column",
