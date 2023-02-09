@@ -73,8 +73,9 @@
     {% if block.settings.button_link != blank and block.settings.button_label != blank %}
     
     <a href="{{ block.settings.button_link }}" class="videoBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
-        <span class="cta__hover" style="background: {{ block.settings.color_btn_bg }}"></span>
-        <span class="cta__text js-cta-text">{{ block.settings.button_label | escape }}</span>         
+    
+    {{ block.settings.button_label | escape }}
+    
     </a>
     
     {% endif %}
@@ -114,7 +115,7 @@
     color: {{ block.settings.color_text }}!important;
     
     }
-
+    
     {%- endstyle -%}
     
      
@@ -134,8 +135,9 @@
     {% if block.settings.button_link != blank and block.settings.button_label != blank %}
     
     <a href="{{ block.settings.button_link }}" class="imageBoxInfoBtn" style="color: {{ block.settings.color_btn_text }}; background: {{ block.settings.color_btn_bg }}">
-        <span class="cta__hover" style="background: {{ block.settings.color_btn_bg }}"></span>
-        <span class="cta__text js-cta-text">{{ block.settings.button_label | escape }}</span>    
+    
+    {{ block.settings.button_label | escape }}
+    
     </a>
     
     {% endif %}
@@ -310,31 +312,54 @@
     
     .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
     
+    -moz-user-select: none;
+    
+    -ms-user-select: none;
+    
+    -webkit-user-select: none;
+    
+    user-select: none;
+    
+    -webkit-appearance: none;
+    
+    -moz-appearance: none;
+    
+    appearance: none;
+    
+    display: inline-block;
+    
+    width: auto;
+    
+    text-decoration: none;
+    
+    text-align: center;
+    
+    vertical-align: middle;
+    
     cursor: pointer;
-    display: inline-flex;
-    overflow: hidden;
-    position: relative;
-    padding: 10px 2px;
-    margin-top: 0.625rem;
-    pointer-events: auto;
+    
+    border: 1px solid transparent;
+    
+    border-radius: 2px;
+    
+    padding: 8px 15px;
+    
+    font-style: normal;
+    
+    font-weight: 800;
+    
+    text-transform: uppercase;
+    
+    letter-spacing: 0.06em;
+    
+    white-space: normal;
+    
+    font-size: 14px;
+    
+    margin-top: 20px;
+    
     }
-    .cta__hover,
-    .imageBoxInfoBtn:before,
-    .videoBoxInfoBtn:before, 
-     {
-        bottom: 0;
-        content: "";
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        transform: translateY(100%) translateY(-1px);
-        transition: background .3s cubic-bezier(.42,0,0,1),transform .3s cubic-bezier(.42,0,0,1);
-    }    
-    .imageBoxInfoBtn:hover .cta__hover,
-    .videoBoxInfoBtn:hover .cta__hover   {
-        transform: translateY(0);
-    }
+    
     .videoBackground .videoBoxInfoTitle, .videoBackground .imageBoxInfoTitle {
     
     color: #FFF;
