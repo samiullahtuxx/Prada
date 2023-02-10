@@ -21,7 +21,7 @@ slideshow-component {
 .prada-sphere__section .prada-sphere__sectionTitle {
   font-family: benton-sans,sans-serif;
   font-weight: 700;
-  font-size: 1.4375rem;
+  font-size: 30px;
   line-height: 1;
   display: inline-block;
   padding-top: 1.875rem;
@@ -29,7 +29,7 @@ slideshow-component {
 .prada-sphere__section .prada-sphere__sectionSubTitle {
   font-family: benton-sans,sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 24px;
   line-height: 1;
   display: inline-block;
 }
