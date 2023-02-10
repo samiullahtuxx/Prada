@@ -122,6 +122,13 @@
     .grid--4-col-desktop .multicolumn-list__item {
       padding-bottom: 0;
     }
+    .multicolumn-list__item:first-child{
+        padding-left: 1rem;
+    }
+    .multicolumn-list__item:last-child{
+        padding-right: 1rem;
+    }
+      
   
     .background-none .grid--2-col-tablet .multicolumn-list__item {
       margin-top: 4rem;
