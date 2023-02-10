@@ -6,6 +6,14 @@ slideshow-component {
 .slider_container_custom {
   padding: 6.75rem 0 3.75rem;
 }
+.slidwshowbtn_bottom {
+  float: none;
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
 .slideshow {
   max-width: 930px;
   margin: 0 auto !important;
