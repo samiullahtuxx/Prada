@@ -3,7 +3,12 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
-
+.slideshow {
+  max-width: 930px;
+  margin: 0 auto !important;
+  float: none;
+  width: 100%;
+}
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;
