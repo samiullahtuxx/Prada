@@ -17,7 +17,8 @@ slideshow-component {
   width: 100%;
 }
 
-.slider-button svg {
+.slider-button svg,
+.slider-button {
   font-size: 25px;
   width: 25px !important;
   height: 25px !important;  
