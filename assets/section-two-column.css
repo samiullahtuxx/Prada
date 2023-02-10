@@ -215,11 +215,7 @@
     text-decoration: none;
     font-size: inherit;
   }
-  
-  .multicolumn-card__info .icon-wrap {
-    margin-left: 0.8rem;
-    white-space: nowrap;
-  }
+
   
   @media screen and (min-width: 990px) {
     .multicolumn-list__item--empty {
