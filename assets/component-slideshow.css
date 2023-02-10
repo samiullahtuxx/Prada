@@ -3,6 +3,9 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
+.slider-button {
+  color: #fff !important;
+}  
 .slider_container_custom {
   padding: 6.75rem 0 6.75rem;
 }
@@ -233,9 +236,6 @@ slideshow-component:not(.page-width) .slider-buttons {
     border-left: 0.1rem solid rgba(var(--color-foreground), 0.08);
     color: #fff !important;
   }
-  .slider-button {
-    color: #fff !important;
-  }  
 }
 
 .slideshow__autoplay .icon.icon-play,
