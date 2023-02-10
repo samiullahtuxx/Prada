@@ -4,7 +4,7 @@ slideshow-component {
   flex-direction: column;
 }
 .slider_container_custom {
-  padding: 3.75rem 0;
+  padding: 6.75rem 0 3.75rem;
 }
 .slideshow {
   max-width: 930px;
