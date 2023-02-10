@@ -62,7 +62,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/barista-pours-over-coffee-at-cafe.jpg",
         "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -80,7 +80,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/close-up-of-purple-and-blue-laces.jpg",
             "title": "Column",
-            "text": "",
             "link_label": "Shop",
             "link": ""
           }
@@ -90,7 +89,6 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/office-desk-with-hands-taking-notes.jpg",
             "title": "Column",
-            "text": "",
             "link_label": "Shop",
             "link": ""
           }
@@ -116,11 +114,114 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "73a30261-de40-46d5-a4fc-6ccb254c796b": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Prada Symbole Bag",
+            "heading_size": "h1"
+          }
+        },
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-1": {
+          "type": "text",
+          "settings": {
+            "text": "The triangle inspires a new monogram pattern.",
+            "text_style": "body"
+          }
+        },
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "For Him",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-0",
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-1",
+        "template--17676727255325__73a30261-de40-46d5-a4fc-6ccb254c796b-16760225640ee0aa61-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/silhouetted-couples-look-out-at-a-city-at-night.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "top-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "d467fed6-32ff-49e3-bf93-9fbd84a6eec4": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/person-uses-string-to-create-a-huge-bubble.jpg",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Discover",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/portrait-of-illuminated-laptop.jpg",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Discover",
+            "link": "",
+            "button_style_secondary": true,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-0",
+        "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-1"
+      ],
+      "settings": {
+        "layout": "grid",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "422aa19e-9da7-4a8d-bfc1-f84753690453",
     "image_banner",
-    "f76316de-702a-4753-955b-69878d64a53c"
+    "f76316de-702a-4753-955b-69878d64a53c",
+    "73a30261-de40-46d5-a4fc-6ccb254c796b",
+    "d467fed6-32ff-49e3-bf93-9fbd84a6eec4"
   ]
 }
