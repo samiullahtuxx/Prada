@@ -78,14 +78,26 @@
         "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/barista-pours-over-coffee-at-cafe.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "link_label": "Shop",
             "link": ""
           }
         },
         "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-1": {
           "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/silhouetted-couples-look-out-at-a-city-at-night.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Shop",
+            "link": ""
+          }
+        },
+        "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-2": {
+          "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -93,8 +105,39 @@
             "link": ""
           }
         },
-        "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-2": {
+        "315e584b-6d06-4838-bd32-6cd33af609ac": {
           "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bafda336-3c39-47bf-8721-bcb8b991d1f4": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "bdeab8f0-cb35-472d-916a-0674f7b74b2d": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "db027eb0-d599-4df1-a3dc-6ce3c7e84c8d": {
+          "type": "column",
+          "disabled": true,
           "settings": {
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
@@ -106,7 +149,11 @@
       "block_order": [
         "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-0",
         "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-1",
-        "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-2"
+        "template--17676727255325__825c0657-d300-412e-903c-ac9d7783af30-16760181521282195b-2",
+        "315e584b-6d06-4838-bd32-6cd33af609ac",
+        "bafda336-3c39-47bf-8721-bcb8b991d1f4",
+        "bdeab8f0-cb35-472d-916a-0674f7b74b2d",
+        "db027eb0-d599-4df1-a3dc-6ce3c7e84c8d"
       ],
       "settings": {
         "title": "Two Columns",
