@@ -6,6 +6,11 @@ slideshow-component {
 .slider-button {
   color: #fff !important;
 }  
+.slider-buttons {
+  display: flex;
+  align-items: flex-end !important;
+  justify-content: right !important;
+}
 .slider-button svg {
   font-size: 25px;
   width: 25px !important;
