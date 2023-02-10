@@ -50,6 +50,7 @@
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
+    column-gap: none !important;
   }
   
   .multicolumn-list__item:only-child {
