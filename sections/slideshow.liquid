@@ -59,6 +59,11 @@
           {%- render 'icon-play' -%}
         </button>
       {%- endif -%}
+      {% if section.settings.slideshowbtn != blank %}
+        <a class="link animate-arrow" href="{{ section.settings.slideshowbtnlink }}" style="background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, #fff 50%, #fff">
+          {{ section.settings.slideshowbtn }}
+        </a>    
+      {%- endif -%}       
     </div>
     <noscript>
       <div class="slider-buttons">
@@ -116,11 +121,6 @@
         </div>
       </div>
     {%- endfor -%}
-    {% if section.settings.slideshowbtn != blank %}
-      <a class="link animate-arrow" href="{{ section.settings.slideshowbtnlink }}" style="background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, #fff 50%, #fff">
-        {{ section.settings.slideshowbtn }}
-      </a>    
-    {%- endif -%} 
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
