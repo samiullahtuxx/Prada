@@ -29,7 +29,7 @@ slideshow-component {
   padding: 0em 0.2em;
   cursor: pointer;
   text-decoration: none;
-  
+  color: #fff;
   background-size: 100% 195% !important;
   /*trasition effect for background*/
   transition: background 1s;  
