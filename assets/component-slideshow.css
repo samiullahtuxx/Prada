@@ -231,7 +231,7 @@ slideshow-component:not(.page-width) .slider-buttons {
     margin-left: 0.6rem;
     padding: 0 0 0 0.6rem;
     border-left: 0.1rem solid rgba(var(--color-foreground), 0.08);
-    color: #fff;
+    color: #fff !important;
   }
 }
 
