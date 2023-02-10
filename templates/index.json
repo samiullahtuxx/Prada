@@ -168,6 +168,7 @@
         "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/person-uses-string-to-create-a-huge-bubble.jpg",
             "heading": "Image slide",
             "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
@@ -185,6 +186,7 @@
         "template--17676727255325__d467fed6-32ff-49e3-bf93-9fbd84a6eec4-16760230023b8e3064-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/portrait-of-illuminated-laptop.jpg",
             "heading": "Image slide",
             "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
