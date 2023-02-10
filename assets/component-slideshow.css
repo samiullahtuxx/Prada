@@ -233,6 +233,9 @@ slideshow-component:not(.page-width) .slider-buttons {
     border-left: 0.1rem solid rgba(var(--color-foreground), 0.08);
     color: #fff !important;
   }
+  .slider-button {
+    color: #fff !important;
+  }  
 }
 
 .slideshow__autoplay .icon.icon-play,
