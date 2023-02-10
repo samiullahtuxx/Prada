@@ -123,10 +123,10 @@
       padding-bottom: 0;
     }
     .multicolumn-list__item:first-child{
-        padding-left: 1rem;
+        padding-right: 1rem !important;
     }
     .multicolumn-list__item:last-child{
-        padding-right: 1rem;
+        padding-left: 1rem !important;
     }
       
   
