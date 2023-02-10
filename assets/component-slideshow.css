@@ -9,6 +9,39 @@ slideshow-component {
   float: none;
   width: 100%;
 }
+.prada-sphere__section {
+  color: #fff;
+  position: absolute;
+  width: auto;
+  justify-content: center;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%) translateX(-50%) rotate(-90deg);
+}
+.prada-sphere__section .prada-sphere__sectionTitle {
+  font-family: benton-sans,sans-serif;
+  font-weight: 700;
+  font-size: 1.4375rem;
+  line-height: 1;
+  display: inline-block;
+  padding-top: 1.875rem;
+}
+.prada-sphere__section .prada-sphere__sectionSubTitle {
+  font-family: benton-sans,sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1;
+  display: inline-block;
+}
+.prada-sphere__section .prada-sphere__sectionTitle:after {
+  content: "";
+  display: inline-block;
+  width: 1.875rem;
+  height: 0.0625rem;
+  border-bottom: 0.0625rem solid #fff;
+  margin-left: 12px;
+  margin-right: 12px;
+}
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;

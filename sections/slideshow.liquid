@@ -28,6 +28,10 @@
 
 <slideshow-component class="slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}" role="region" aria-roledescription="{{ 'sections.slideshow.carousel' | t }}" aria-label="{{ section.settings.accessibility_info | escape }}">
   <div class="slider_container_custom" style="background: {{ section.settings.bgcolor }}">
+    <div class="prada-sphere__section">
+      <span class="prada-sphere__sectionTitle">{{ section.settings.vheading }}</span> 
+      <span class="prada-sphere__sectionSubTitle prada-sphere__blockMoved">{{ section.settings.vsubheading }}</span>
+    </div>    
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
@@ -253,12 +257,14 @@
     {
       "type": "text",
       "id": "vheading",
-      "label": "Vertical Heading"
+      "label": "Vertical Heading",
+      "default": "Pradasphere"
     }, 
     {
       "type": "text",
       "id": "vsubheading",
-      "label": "Vertical Sub Heading"
+      "label": "Vertical Sub Heading",
+      "default": "News"
     },       
     {
       "type": "text",
