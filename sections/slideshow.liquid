@@ -115,14 +115,7 @@
           </div>
         </div>
       </div>
-    {%- endfor -%}
-    <div class="slidwshowbtn_bottom">
-      {% if section.settings.slideshowbtn != blank %}
-        <a class="link animate-arrow" href="{{ section.settings.slideshowbtnlink }}" style="background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, #fff 50%, #fff">
-          {{ section.settings.slideshowbtn }}
-        </a>    
-      {%- endif -%}      
-    </div>     
+    {%- endfor -%}    
   </div>
 
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
@@ -153,6 +146,13 @@
         </button>
       {%- endif -%}          
     </div>
+    <div class="slidwshowbtn_bottom">
+      {% if section.settings.slideshowbtn != blank %}
+        <a class="link animate-arrow" href="{{ section.settings.slideshowbtnlink }}" style="background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 50%, #fff 50%, #fff">
+          {{ section.settings.slideshowbtn }}
+        </a>    
+      {%- endif -%}      
+    </div>     
     <noscript>
       <div class="slider-buttons">
         <div class="slider-counter">
