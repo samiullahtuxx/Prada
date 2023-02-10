@@ -6,6 +6,7 @@ slideshow-component {
 .slider-button {
   color: #fff !important;
   padding: 0px !important;
+  margin: 0px !important;
 }  
 .slider-buttons {
   display: flex;
