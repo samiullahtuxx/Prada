@@ -312,25 +312,26 @@
     
     .videoBackground .videoBoxInfoBtn{
         margin: 2em auto;
-        width: 100px;
+        width: auto !important;
         font-size: 14px;
         box-sizing: border-box;
         text-align: center;
         font-weight: bold;
         text-transform: uppercase;
-        padding: 1em 0.5em;
+        padding: 0.5em 0em;
         cursor: pointer;
         text-decoration: none;
         
         background-size: 100% 195% !important;
         /*trasition effect for background*/
         transition: background 1s;  
-        margin-top: 0.625rem;      
+        margin-top: 0.625rem !important;   
+        float: left;   
     }
     .videoBackground .videoBoxInfoBtn:hover {
         background-position: 100% 100% !important;
         Color: #000 !important; 
-        margin-top: 0.625rem;
+        margin-top: 0.625rem !important;
       }    
 
    /* .videoBackground .videoBoxInfoBtn, .videoBackground .imageBoxInfoBtn {
