@@ -22,7 +22,9 @@ slideshow-component {
 }
 .link{
   width: auto !important;
-  font-size: 14px;
+  font-size: .875rem;
+  font-weight: 600;
+  letter-spacing: 1px;
   box-sizing: border-box;
   text-align: center;
   text-transform: uppercase;
