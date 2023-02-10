@@ -208,7 +208,7 @@
       ],
       "settings": {
         "layout": "grid",
-        "slide_height": "medium",
+        "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
         "bgcolor": "#121212",
