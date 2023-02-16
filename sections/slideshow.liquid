@@ -133,7 +133,9 @@
   $(document).ready(function(){
     $('.slider-button').on("click", function(){
       var ariahidden = $(".slider__slide").attr('aria-hidden');
-      alert(ariahidden);
+      if(ariahidden == "false"){
+        alert("False Selected");
+      }
     });
   });
 </script>  
