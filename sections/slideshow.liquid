@@ -118,7 +118,7 @@
     {%- endfor -%}    
   </div>
 
-  <div class="banner_headingCustom">Samiullah</div>
+  <h2 class="banner_headingCustom"></h2>
 
   <style>
   .banner_headingCustom{
@@ -133,7 +133,8 @@
   $(document).ready(function(){
     $('.slider-button').on("click", function(){
       var ariahidden = $(".slider__slide[aria-hidden='false']");
-      alert($(ariahidden).find('h2').text());
+      var slideHeadingText = $(ariahidden).find('h2').text();
+      $(".banner_headingCustom").text(slideHeadingText);
     });
   });
 </script>  
