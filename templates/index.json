@@ -169,7 +169,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-uses-string-to-create-a-huge-bubble.jpg",
-            "heading": "Image slide",
+            "heading": "First Slider",
             "heading_size": "h2",
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -183,7 +183,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/portrait-of-illuminated-laptop.jpg",
-            "heading": "Image slide",
+            "heading": "Second Slide",
             "heading_size": "h2",
             "box_align": "bottom-left",
             "show_text_box": false,
