@@ -157,6 +157,7 @@
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
                 <li class="grid__item">
+                  {%- render 'button-wishlist', product: product -%} 
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
