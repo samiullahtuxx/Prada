@@ -132,10 +132,8 @@
 <script>
   $(document).ready(function(){
     $('.slider-button').on("click", function(){
-      var ariahidden = $(".slider__slide").attr('aria-hidden');
-      if(ariahidden == "false"){
-        alert("False Selected");
-      }
+      var ariahidden = $(".slider__slide[aria-hidden='false']");
+      alert($(ariahidden).find('h2').text());
     });
   });
 </script>  
