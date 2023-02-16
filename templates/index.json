@@ -169,7 +169,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/person-uses-string-to-create-a-huge-bubble.jpg",
-            "heading": "First Slider",
+            "heading": "First Slide",
             "heading_size": "h2",
             "box_align": "bottom-left",
             "show_text_box": false,
