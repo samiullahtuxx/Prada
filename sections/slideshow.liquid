@@ -129,6 +129,14 @@
   }
   </style>
 
+<script>
+  $(document).ready(function(){
+    $('.slider-button').on("click", function(){
+      alert('Samiullah');
+    });
+  });
+</script>  
+
   {%- if section.blocks.size > 1 and section.settings.auto_rotate == false -%}
     <div class="slideshow__controls slider-buttons no-js-hidden{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
