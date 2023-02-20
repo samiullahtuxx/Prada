@@ -19,18 +19,18 @@
             "menu": "company"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "6062baea-a753-4912-8b81-01d4a64b3b2b": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "LEGAL TERMS AND CONDITIONS",
+            "menu": "legal-terms-and-conditions"
           }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "6062baea-a753-4912-8b81-01d4a64b3b2b"
       ],
       "settings": {
         "color_scheme": "background-1",
