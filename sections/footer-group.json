@@ -4,34 +4,6 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "footer-0": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "need-help"
-          }
-        },
-        "footer-1": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Company",
-            "menu": "company"
-          }
-        },
-        "6062baea-a753-4912-8b81-01d4a64b3b2b": {
-          "type": "link_list",
-          "settings": {
-            "heading": "LEGAL TERMS AND CONDITIONS",
-            "menu": "legal-terms-and-conditions"
-          }
-        }
-      },
-      "block_order": [
-        "footer-0",
-        "footer-1",
-        "6062baea-a753-4912-8b81-01d4a64b3b2b"
-      ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
