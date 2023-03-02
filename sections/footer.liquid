@@ -59,14 +59,22 @@
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {% render block %}
-                  {%- when 'call' -%}
-                  <div class="footer-block__details-content rte">
-                    {{ block.settings.callus }}
-                  </div>
-                {% comment %} {%- when 'text' -%}
-                  <div class="footer-block__details-content rte">
-                    {{ block.settings.subtext }}
-                  </div> {% endcomment %}
+                    
+                  {%- when 'iconwithtext' -%}
+                    <ul class="footer-block__details-content list-unstyled">
+                      {% if block.settings.callus != blank %}
+                        <li><a href="tel:{{ block.settings.callus }}">{{ block.settings.callus }}</a></li>
+                      {% endif %}
+                      {% if block.settings.chatus != blank%}
+                        <li><a href="{{ block.settings.chatuslink }}">{{ block.settings.chatus }}</a></li>
+                      {% endif %}
+                      {% if block.settings.contactus != blank %}
+                        <li><a href="{{ block.settings.contactuslink }}">{{ block.settings.contactus }}</a></li>
+                      {% endif %}
+                      {% if block.settings.storelocator != blank %}
+                        <li><a href="{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a></li>
+                      {% endif %}                                                                  
+                  </ul>
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank -%}
                     <ul class="footer-block__details-content list-unstyled">
@@ -412,7 +420,7 @@
       ]
     },
     {
-      "type": "call",
+      "type": "iconwithtext",
       "name": "Call Us",
       "settings": [
         {
@@ -429,7 +437,7 @@
       ]
     },
     {
-      "type": "support",
+      "type": "iconwithtext",
       "name": "Chat With Client Service",
       "settings": [
         {
@@ -446,7 +454,7 @@
       ]
     },    
     {
-      "type": "contact",
+      "type": "iconwithtext",
       "name": "Contact Us",
       "settings": [
         {
@@ -463,7 +471,7 @@
       ]
     },    
     {
-      "type": "store",
+      "type": "iconwithtext",
       "name": "Store Locator",
       "settings": [
         {
