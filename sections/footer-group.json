@@ -5,17 +5,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "d9593f47-d4bf-4cda-a4f4-0d3b772fc26d": {
-          "type": "text",
+        "52857082-979d-417c-ab26-ff9890d08b88": {
+          "type": "call",
           "settings": {
-            "icon1": "tel",
-            "item1": "Call us 0080080077232",
-            "link1": ""
+            "callus": "Call us 0080080077232",
+            "calluslink": ""
           }
         }
       },
       "block_order": [
-        "d9593f47-d4bf-4cda-a4f4-0d3b772fc26d"
+        "52857082-979d-417c-ab26-ff9890d08b88"
       ],
       "settings": {
         "color_scheme": "background-1",

@@ -59,7 +59,6 @@
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {% render block %}
-
                   {%- when 'call' -%}
                   <div class="footer-block__details-content rte">
                     {{ block.settings.callus }}
