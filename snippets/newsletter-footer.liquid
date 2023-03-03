@@ -1,4 +1,4 @@
-<div class="footer-block--newsletter" style="margin-top: 0rem !important;">
+<div class="footer-block--newsletter newscolumndic" style="margin-top: 0rem !important;">
       <div class="footer-block__newsletter" >
         {%- if section.settings.newsletter_heading != blank -%}
           <h2 style="text-align: left;" class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
@@ -49,3 +49,16 @@
         {%- render 'social-icons' -%}
     </div>
 </div>
+
+{%- style -%}
+.news_socialIcons ul{
+  justify-content: right !important;
+}
+.news_socialIcons {
+    float: right;
+    margin-top: 15px;
+}
+.newscolumndic form{
+  max-width: 100% !important;
+}
+{%- endstyle -%}
