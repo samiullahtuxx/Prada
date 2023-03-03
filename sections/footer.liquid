@@ -67,16 +67,17 @@
                   </div>
                   {%- when 'support' -%}
                     <div class="footer-block__details-content rte footiconwithtext">
-                      <a href="tel:{{ block.settings.chatuslink }}">{{ block.settings.chatus }}</a>
+                      <a href="{{ block.settings.chatuslink }}">{{ block.settings.chatus }}</a>
                     </div>    
                   {%- when 'contact' -%}
                     <div class="footer-block__details-content rte footiconwithtext">
-                      <a href="tel:{{ block.settings.contactuslink }}">{{ block.settings.contactus }}</a>
+                      <a href="{{ block.settings.contactuslink }}">{{ block.settings.contactus }}</a>
                     </div>   
                   {%- when 'store' -%}
                     <div class="footer-block__details-content rte footiconwithtext">
-                      <a href="tel:{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a>
-                    </div>    
+                      <a href="{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a>
+                    </div>   
+
                   </div>                        
                   {% endif %}                                                       
                 {%- when 'link_list' -%}
