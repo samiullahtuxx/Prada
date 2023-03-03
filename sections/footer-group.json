@@ -33,6 +33,12 @@
             "storelocatorlink": "#"
           }
         },
+        "71533d33-a290-4e3e-980b-fd9e98c81883": {
+          "type": "custommenulink",
+          "settings": {
+            "needmenu": "need-help"
+          }
+        },
         "6b0ac112-2ffe-4b12-8bcc-b02875570df9": {
           "type": "link_list",
           "settings": {
@@ -53,6 +59,7 @@
         "f2b59946-a13b-447d-ab19-774b66f93e96",
         "b3721e3b-fc29-4909-814f-cd3b04f57d11",
         "8e9ae877-152e-43cf-b294-85dc85eee588",
+        "71533d33-a290-4e3e-980b-fd9e98c81883",
         "6b0ac112-2ffe-4b12-8bcc-b02875570df9",
         "060521f5-15c4-4736-994e-658cc4cf49e0"
       ],
