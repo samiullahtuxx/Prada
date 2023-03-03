@@ -243,4 +243,12 @@
       display: list-item;
     }
   }
-  
+  @media (max-width: 989px){
+    .multicolumn-list__item:last-child {
+      margin: 2rem 0 2rem;
+      padding-left: 0px !important;
+    }
+    .multicolumn-list__item:first-child{
+      padding-right: 0px !important;
+    }
+  }
