@@ -2865,6 +2865,13 @@ details-disclosure > details {
     transform: unset !important;
   }  
 }
+@media (max-width: 1000px){
+  slideshow-component .slideshow.banner,
+  .banner_headingCustom,
+  .slideshow__controls{
+    padding: 0 2rem;
+  }
+}
 @media screen and (max-width: 749px) {
   .videoBackground {
     padding-bottom: 2rem !important;
