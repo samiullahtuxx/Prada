@@ -11,10 +11,34 @@
             "callus": "Call us 0080080077232",
             "calluslink": ""
           }
+        },
+        "f2b59946-a13b-447d-ab19-774b66f93e96": {
+          "type": "support",
+          "settings": {
+            "chatus": "Chat With our Client Service",
+            "chatuslink": ""
+          }
+        },
+        "b3721e3b-fc29-4909-814f-cd3b04f57d11": {
+          "type": "contact",
+          "settings": {
+            "contactus": "Contact Us",
+            "contactuslink": ""
+          }
+        },
+        "8e9ae877-152e-43cf-b294-85dc85eee588": {
+          "type": "store",
+          "settings": {
+            "storelocator": "Store Locator",
+            "storelocatorlink": ""
+          }
         }
       },
       "block_order": [
-        "52857082-979d-417c-ab26-ff9890d08b88"
+        "52857082-979d-417c-ab26-ff9890d08b88",
+        "f2b59946-a13b-447d-ab19-774b66f93e96",
+        "b3721e3b-fc29-4909-814f-cd3b04f57d11",
+        "8e9ae877-152e-43cf-b294-85dc85eee588"
       ],
       "settings": {
         "color_scheme": "background-1",
