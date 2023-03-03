@@ -2867,6 +2867,12 @@ details-disclosure > details {
 #shopify-section-template--18056970305821__image_banner{
   margin: 0 2rem 2rem !important;
 }
+ul#Slider-template--18056970305821__f76316de-702a-4753-955b-69878d64a53c li:last-child {
+  margin: 2rem 0 2rem;
+}
+#shopify-section-template--18056970305821__73a30261-de40-46d5-a4fc-6ccb254c796b{
+  margin: 0px 2rem;
+}
   .content-container--full-width-mobile {
     border-left: none;
     border-right: none;
