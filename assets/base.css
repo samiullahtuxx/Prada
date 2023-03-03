@@ -2873,7 +2873,7 @@ details-disclosure > details {
     padding: 0 2rem !important;
   }
   .banner_headingCustom{
-    margin-top: 2rem;
+    margin-top: 2rem !important;
   }
 }
 @media screen and (max-width: 749px) {
