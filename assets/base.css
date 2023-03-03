@@ -2868,7 +2868,8 @@ details-disclosure > details {
 @media (max-width: 1000px){
   slideshow-component .slideshow.banner,
   .banner_headingCustom,
-  .slideshow__controls{
+  .slideshow__controls,
+  .slidwshowbtn_bottom{
     padding: 0 2rem;
   }
 }
