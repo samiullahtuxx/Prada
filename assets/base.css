@@ -2879,6 +2879,7 @@ details-disclosure > details {
 @media (max-width: 989px){
   ul#Slider-template--18056970305821__f76316de-702a-4753-955b-69878d64a53c li:last-child {
     margin: 2rem 0 2rem;
+    padding: 0px !important;
   }
 }
 @media screen and (max-width: 749px) {
