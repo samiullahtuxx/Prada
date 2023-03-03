@@ -3,6 +3,9 @@ slideshow-component {
   display: flex;
   flex-direction: column;
 }
+slideshow-component.page-width{
+  max-width: 100% !important;
+}
 .slider-button {
   color: #fff !important;
   padding: 0px !important;
