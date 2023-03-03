@@ -44,14 +44,9 @@
         {%- endform -%}
       </div>
 
-     {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-      <div class="footer__follow-on-shop">
-        {{ shop | login_button: action: 'follow' }}
-      </div>
-    {%- endif -%}
+    <div class="news_socialIcons">
+        {%- render 'social-icons' -%}
+    </div>
 
-    {%- if section.settings.show_social -%}
-      {%- render 'social-icons' -%}
-    {%- endif -%}
   </div>
 </div>
