@@ -2870,7 +2870,7 @@ details-disclosure > details {
   .banner_headingCustom,
   .slideshow__controls,
   .slidwshowbtn_bottom{
-    padding: 0 2rem;
+    padding: 0 2rem !important;
   }
 }
 @media screen and (max-width: 749px) {
