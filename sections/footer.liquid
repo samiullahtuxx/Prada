@@ -108,6 +108,10 @@
                       {%- endfor -%}
                     </ul>
                   {%- endif -%}
+                {% when "footnews" %}
+                  {% if block.settings.footnewsenable == true %}
+                    {% render "newsletter-footer" %}
+                  {% endif %}
                 {%- when 'brand_information' -%}
                   <div class="footer-block__brand-info">
                     {%- if settings.brand_image != blank -%}
@@ -518,7 +522,19 @@
           "label": "Select Menu"
         }
       ]
-    },        
+    },  
+    {
+      "type": "footnews",
+      "name": "Column Newsletter",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "footnewsenable",
+          "default": false
+          "label": "Enable Newsletter"
+        }
+      ]
+    },            
     {
       "type": "image",
       "name": "Image",
