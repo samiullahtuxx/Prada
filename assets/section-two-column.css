@@ -237,7 +237,9 @@
     font-size: inherit;
   }
 
-  
+  .multicolumn.color-background-1.gradient.background-none.no-heading .page-width {
+    max-width: 100%;
+}
   @media screen and (min-width: 990px) {
     .multicolumn-list__item--empty {
       display: list-item;
