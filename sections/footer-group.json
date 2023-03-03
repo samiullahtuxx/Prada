@@ -52,6 +52,12 @@
             "heading": "LEGAL TERMS AND CONDITIONS",
             "menu": "legal-terms-and-conditions"
           }
+        },
+        "c70e66eb-42d3-4200-a7fa-04141dd5bca4": {
+          "type": "footnews",
+          "settings": {
+            "footnewsenable": true
+          }
         }
       },
       "block_order": [
@@ -61,7 +67,8 @@
         "8e9ae877-152e-43cf-b294-85dc85eee588",
         "71533d33-a290-4e3e-980b-fd9e98c81883",
         "6b0ac112-2ffe-4b12-8bcc-b02875570df9",
-        "060521f5-15c4-4736-994e-658cc4cf49e0"
+        "060521f5-15c4-4736-994e-658cc4cf49e0",
+        "c70e66eb-42d3-4200-a7fa-04141dd5bca4"
       ],
       "settings": {
         "color_scheme": "background-1",
