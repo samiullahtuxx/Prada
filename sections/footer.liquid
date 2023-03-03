@@ -59,22 +59,22 @@
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {% render block %}
-                    
-                  {%- when 'iconwithtext' -%}
-                    <ul class="footer-block__details-content list-unstyled">
-                      {% if block.settings.callus != blank %}
-                        <li><a href="tel:{{ block.settings.callus }}">{{ block.settings.callus }}</a></li>
-                      {% endif %}
-                      {% if block.settings.chatus != blank%}
-                        <li><a href="{{ block.settings.chatuslink }}">{{ block.settings.chatus }}</a></li>
-                      {% endif %}
-                      {% if block.settings.contactus != blank %}
-                        <li><a href="{{ block.settings.contactuslink }}">{{ block.settings.contactus }}</a></li>
-                      {% endif %}
-                      {% if block.settings.storelocator != blank %}
-                        <li><a href="{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a></li>
-                      {% endif %}                                                                  
-                  </ul>
+                  {%- when 'call' -%}
+                  <div class="footer-block__details-content rte footiconwithtext">
+                    <a href="tel:{{ block.settings.calluslink }}">{{ block.settings.callus }}</a>
+                  </div>
+                  {%- when 'support' -%}
+                    <div class="footer-block__details-content rte footiconwithtext">
+                      <a href="tel:{{ block.settings.chatuslink }}">{{ block.settings.chatus }}</a>
+                    </div>    
+                  {%- when 'contact' -%}
+                    <div class="footer-block__details-content rte footiconwithtext">
+                      <a href="tel:{{ block.settings.contactuslink }}">{{ block.settings.contactus }}</a>
+                    </div>   
+                  {%- when 'store' -%}
+                    <div class="footer-block__details-content rte footiconwithtext">
+                      <a href="tel:{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a>
+                    </div>                                                           
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank -%}
                     <ul class="footer-block__details-content list-unstyled">
@@ -420,7 +420,7 @@
       ]
     },
     {
-      "type": "iconwithtext",
+      "type": "call",
       "name": "Call Us",
       "settings": [
         {
@@ -437,7 +437,7 @@
       ]
     },
     {
-      "type": "iconwithtext",
+      "type": "support",
       "name": "Chat With Client Service",
       "settings": [
         {
@@ -448,13 +448,13 @@
         },   
         {
           "type": "url",
-          "id": "chatusink",
+          "id": "chatuslink",
           "label": "Link to Text"
         }        
       ]
     },    
     {
-      "type": "iconwithtext",
+      "type": "contact",
       "name": "Contact Us",
       "settings": [
         {
@@ -471,7 +471,7 @@
       ]
     },    
     {
-      "type": "iconwithtext",
+      "type": "store",
       "name": "Store Locator",
       "settings": [
         {
