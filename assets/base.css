@@ -2864,8 +2864,8 @@ details-disclosure > details {
   .videoBackground {
     padding-bottom: 2rem !important;
 }  
-div#shopify-section-template--18056970305821__image_banner {
-  margin: 0 2rem 2rem;
+#shopify-section-template--18056970305821__image_banner {
+  margin: 0 2rem 2rem !important;
 }
   .content-container--full-width-mobile {
     border-left: none;
