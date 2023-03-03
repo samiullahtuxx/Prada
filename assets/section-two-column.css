@@ -240,6 +240,9 @@
   .multicolumn.color-background-1.gradient.background-none.no-heading .page-width {
     max-width: 100%;
 }
+.multicolumn-list{
+  column-gap: none !important;
+}
   @media screen and (min-width: 990px) {
     .multicolumn-list__item--empty {
       display: list-item;
