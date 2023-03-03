@@ -2861,12 +2861,6 @@ details-disclosure > details {
 }
 
 @media screen and (max-width: 749px) {
-  .videoBackground {
-    padding-bottom: 2rem;
-}  
-div#shopify-section-template--18056970305821__image_banner {
-  margin: 0 2rem;
-}
   .content-container--full-width-mobile {
     border-left: none;
     border-right: none;
