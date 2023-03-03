@@ -2872,6 +2872,9 @@ details-disclosure > details {
   .slidwshowbtn_bottom{
     padding: 0 2rem !important;
   }
+  .banner_headingCustom{
+    margin-top: 2rem;
+  }
 }
 @media screen and (max-width: 749px) {
   .videoBackground {
