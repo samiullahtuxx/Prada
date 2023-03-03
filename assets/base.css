@@ -2876,6 +2876,11 @@ details-disclosure > details {
     margin-top: 2rem !important;
   }
 }
+@media (max-width: 989px){
+  ul#Slider-template--18056970305821__f76316de-702a-4753-955b-69878d64a53c li:last-child {
+    margin: 2rem 0 2rem;
+  }
+}
 @media screen and (max-width: 749px) {
   .videoBackground {
     padding-bottom: 2rem !important;
