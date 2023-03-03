@@ -55,6 +55,7 @@
         -%}
         
         <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet {{ footer_grid_class }}">
+          <div id="custom_{{ block.type }}" class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
           <ul class="footer-block__details-content list-unstyled footiconwithtext">
           {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -75,6 +76,7 @@
               {% endcase %}                  
           {% endfor %}
         </ul>
+      </div>
 
           {%- for block in section.blocks -%}
 
