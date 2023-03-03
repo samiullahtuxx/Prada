@@ -73,7 +73,7 @@
                   <li><a href="{{ block.settings.contactuslink }}" class="link link--text list-menu__item list-menu__item--link"> <span>{% render "contact-icon" %}</span> {{ block.settings.contactus }}</a></li>
               {%- when 'store' -%}
                   <li><a href="{{ block.settings.storelocatorlink }}" class="link link--text list-menu__item list-menu__item--link"> <span>{% render "location-icon" %}</span> {{ block.settings.storelocator }}</a></li>
-              {%- when 'needhelp' -%}
+              {%- when 'custommenulink' -%}
                 {%- if block.settings.needmenu != blank -%}
                     {%- for link in block.settings.needmenu.links -%}
                       <li>
@@ -524,7 +524,7 @@
       ]
     },  
     {
-      "type": "needhelp",
+      "type": "custommenulink",
       "name": "Need Help Menu",
       "settings": [
         {
