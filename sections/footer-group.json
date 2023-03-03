@@ -32,13 +32,21 @@
             "storelocator": "Store Locator",
             "storelocatorlink": "#"
           }
+        },
+        "6b0ac112-2ffe-4b12-8bcc-b02875570df9": {
+          "type": "link_list",
+          "settings": {
+            "heading": "COMPANY",
+            "menu": "company"
+          }
         }
       },
       "block_order": [
         "52857082-979d-417c-ab26-ff9890d08b88",
         "f2b59946-a13b-447d-ab19-774b66f93e96",
         "b3721e3b-fc29-4909-814f-cd3b04f57d11",
-        "8e9ae877-152e-43cf-b294-85dc85eee588"
+        "8e9ae877-152e-43cf-b294-85dc85eee588",
+        "6b0ac112-2ffe-4b12-8bcc-b02875570df9"
       ],
       "settings": {
         "color_scheme": "background-1",
