@@ -2862,7 +2862,7 @@ details-disclosure > details {
 
 @media screen and (max-width: 749px) {
   .videoBackground {
-    padding-bottom: 2rem;
+    padding-bottom: 2rem !important;
 }  
 div#shopify-section-template--18056970305821__image_banner {
   margin: 0 2rem;
