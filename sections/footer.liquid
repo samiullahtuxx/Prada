@@ -59,6 +59,8 @@
               {%- case block.type -%}
                 {%- when '@app' -%}
                   {% render block %}
+                  {% if block.settings.callus != blank or block.settings.chatus != blank or block.settings.contactus != blank or block.settings.storelocator != blank %}
+                    <div class="mainfooticonwithtext">
                   {%- when 'call' -%}
                   <div class="footer-block__details-content rte footiconwithtext">
                     <a href="tel:{{ block.settings.calluslink }}">{{ block.settings.callus }}</a>
@@ -74,7 +76,9 @@
                   {%- when 'store' -%}
                     <div class="footer-block__details-content rte footiconwithtext">
                       <a href="tel:{{ block.settings.storelocatorlink }}">{{ block.settings.storelocator }}</a>
-                    </div>                                                           
+                    </div>    
+                  </div>                        
+                  {% endif %}                                                       
                 {%- when 'link_list' -%}
                   {%- if block.settings.menu != blank -%}
                     <ul class="footer-block__details-content list-unstyled">
